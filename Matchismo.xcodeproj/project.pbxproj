@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B33F54D16B634710087DA62 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B33F54C16B634710087DA62 /* PlayingCardDeck.m */; };
 		8B495A5516B5E7DE004D4AE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B495A5416B5E7DE004D4AE0 /* UIKit.framework */; };
 		8B495A5716B5E7DE004D4AE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B495A5616B5E7DE004D4AE0 /* Foundation.framework */; };
 		8B495A5916B5E7DE004D4AE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B495A5816B5E7DE004D4AE0 /* CoreGraphics.framework */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B33F54B16B634710087DA62 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
+		8B33F54C16B634710087DA62 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
 		8B495A5016B5E7DE004D4AE0 /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B495A5416B5E7DE004D4AE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8B495A5616B5E7DE004D4AE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,9 +123,11 @@
 		8B495A7D16B5E839004D4AE0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8B495A7716B5E828004D4AE0 /* Card.h */,
+				8B33F54B16B634710087DA62 /* PlayingCardDeck.h */,
+				8B33F54C16B634710087DA62 /* PlayingCardDeck.m */,
 				8BA425B616B624E900283AC6 /* PlayingCard.h */,
 				8BA425B716B624E900283AC6 /* PlayingCard.m */,
+				8B495A7716B5E828004D4AE0 /* Card.h */,
 				8B495A7816B5E828004D4AE0 /* Card.m */,
 				8B495A7A16B5E836004D4AE0 /* Deck.h */,
 				8B495A7B16B5E836004D4AE0 /* Deck.m */,
@@ -203,6 +208,7 @@
 				8B495A7916B5E828004D4AE0 /* Card.m in Sources */,
 				8B495A7C16B5E836004D4AE0 /* Deck.m in Sources */,
 				8BA425B816B624E900283AC6 /* PlayingCard.m in Sources */,
+				8B33F54D16B634710087DA62 /* PlayingCardDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
