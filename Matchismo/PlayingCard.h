@@ -14,4 +14,6 @@
 @property (strong, nonatomic) NSString *suit;
 @property (nonatomic) NSUInteger rank;
 
+// :)
+
 @end
